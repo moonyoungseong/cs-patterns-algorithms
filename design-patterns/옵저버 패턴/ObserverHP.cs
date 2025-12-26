@@ -67,7 +67,7 @@ public class ObserverHP : MonoBehaviour
         currentHP = maxHP;
 
         // 옵저버 등록 (구독)
-        // HP가 변경되면 UpdateHPUI 메서드가 자동 호출됨
+        // HP가 변경되면 UpdateHPUI 메서드가 자동 호출
         OnHPChanged += UpdateHPUI;
 
         // 최초 UI 갱신
